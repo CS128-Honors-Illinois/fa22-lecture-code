@@ -13,5 +13,5 @@ fn main() {
 }
 
 fn get_random_call() -> String {
-    String::from("ILL")
+    String::from("Marco")
 }

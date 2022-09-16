@@ -11,7 +11,7 @@ fn main() {
         };
     
         if professor.is_some() {
-            let name = professor.unwrap();
+            let name = professor.unwrap(); //be careful
             println!("{} teaches CS {}", name, course);
         } else {
             println!("It is unclear who teaches CS {}", course);

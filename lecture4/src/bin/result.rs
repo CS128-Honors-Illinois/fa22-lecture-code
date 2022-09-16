@@ -9,9 +9,9 @@ fn main() {
         let (a, b) = pair;
         let res: Result<i32, DivisionError> = divide(a, b);
 
-        println!("divide({}, {}) returns ... {:?}", a, b, res);
+        // println!("divide({}, {}) returns ... {:?}", a, b, res);
 
-        // match_divide_result(a, b);
+        match_divide_result(a, b);
 
         println!("--------------");
     }

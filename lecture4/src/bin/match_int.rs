@@ -4,8 +4,8 @@ fn main() {
     let professor = match course {
         124 => "Prof. Challen",
         128 => "Prof. Nowak",
-        173 => "Prof Fleck",
-        225 => "Prof Evans",
+        173 => "Prof. Fleck",
+        225 => "Prof. Evans",
         _ => ""
     };
 
@@ -13,5 +13,5 @@ fn main() {
 }
 
 fn get_course_number() -> i32 {
-    128
+    374
 }
