@@ -1,2 +1,10 @@
 [workspace]
-members = ["lecture4", "lecture6", "lecture7", "lecture10", "lecture11"]
+members = [
+    "lecture4", 
+    "lecture6", 
+    "lecture7", 
+    "lecture10", 
+    "lecture11", 
+    "lecture12",
+    "lecture13"
+]
